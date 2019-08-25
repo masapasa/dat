@@ -1,0 +1,20 @@
+{
+  "name": "box3_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "serve-static": "^1.14.1",
+    "webpack": "^4.39.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "webpack index.js dist/box3.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
